@@ -1,0 +1,215 @@
+/* ===================================
+   GLOBAL RESET & BODY
+=================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* ===================================
+   SIDEBAR
+=================================== */
+
+.sidebar {
+    background: #1e293b;
+    min-height: 100vh;
+    width: 250px;
+    position: fixed;
+}
+
+.sidebar h4 {
+    color: #fff;
+}
+
+.sidebar .nav-link {
+    color: #cbd5e1;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background: #334155;
+    color: #fff;
+}
+
+/* Content wrapper */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* ===================================
+   CARDS
+=================================== */
+
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Dashboard cards */
+
+.dashboard-card {
+    border-radius: 12px;
+    padding: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Colors */
+
+.card-blue {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.card-green {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.card-yellow {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.card-red {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+/* ===================================
+   TABLES
+=================================== */
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #0f172a;
+    color: #fff;
+    font-weight: 500;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* ===================================
+   FORMS
+=================================== */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: none;
+}
+
+/* ===================================
+   BUTTONS
+=================================== */
+
+.btn {
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-success {
+    background-color: #10b981;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #ef4444;
+    border: none;
+}
+
+/* ===================================
+   BADGES
+=================================== */
+
+.badge {
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* ===================================
+   ALERTS
+=================================== */
+
+.alert {
+    border-radius: 8px;
+}
+
+/* ===================================
+   LOGIN / REGISTER PAGE
+=================================== */
+
+.auth-card {
+    border-radius: 12px;
+    padding: 25px;
+}
+
+/* ===================================
+   FILE CARDS (Assignments / Lectures)
+=================================== */
+
+.file-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.file-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ===================================
+   QUIZ
+=================================== */
+
+.quiz-question {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ===================================
+   UTILITIES
+=================================== */
+
+.text-muted {
+    font-size: 12px;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
